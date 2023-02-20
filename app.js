@@ -17,7 +17,7 @@ app.use('/cars', router)
 
 // my mongodb database information
 // if the database is connected to properly it would display "database connected successfully"
-mongoose.connect("mongodb+srv://Uywencar:UywenDev@CAR-INVENTORY.b4xdhfw.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("your URI")
 .then(() => console.log("Database connected successfully"))
     .then(() => {
         // the url port number to access the information of the database on the webpage
